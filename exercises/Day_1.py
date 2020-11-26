@@ -14,3 +14,11 @@ def fact(x):
 
 x = int(input("wpisz liczbę dla silni: "))
 print(fact(x))
+
+#ex3:
+sqr = int(input("wpiz liczbę do zakresu kwadratu: "))
+d = dict()
+for i in range(1, sqr + 1):
+    d[i] = i * i
+
+print(d)
